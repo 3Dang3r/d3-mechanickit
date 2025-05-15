@@ -122,7 +122,7 @@ RegisterNetEvent("d3-mechanicupgrades:openMenu", function()
         }
     }
 
-    exports['qw-menu']:openMenu(menu)
+    exports['qb-menu']:openMenu(menu)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:changeColor', function()
@@ -186,7 +186,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeColor', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 
@@ -223,7 +223,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeWindowTint', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 
@@ -262,7 +262,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeLivery', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 
@@ -308,7 +308,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeWheels', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 
@@ -333,7 +333,7 @@ RegisterNetEvent('d3-mechanicupgrades:showWheelOptions', function(category)
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:changeWheels" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 
@@ -367,7 +367,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeGrill', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyGrill', function(index)
@@ -398,7 +398,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeSpoiler', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applySpoiler', function(index)
@@ -428,7 +428,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeHorn', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyHorn', function(index)
@@ -458,7 +458,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeLip', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyLip', function(index)
@@ -489,7 +489,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeBumper', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyBumper', function(index)
@@ -530,7 +530,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeInterior', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyInterior', function(index)
@@ -574,7 +574,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeInteriorColor', function()
 
     table.insert(menu, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:changeInterior" } })
 
-    exports['qw-menu']:openMenu(menu)
+    exports['qb-menu']:openMenu(menu)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyInteriorColor', function(colorId)
@@ -613,7 +613,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeNeons', function()
         }
     }
 
-    exports['qw-menu']:openMenu(menu)
+    exports['qb-menu']:openMenu(menu)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyNeons', function(state)
@@ -661,7 +661,7 @@ RegisterNetEvent('d3-mechanicupgrades:neonColorMenu', function()
         params = { event = "d3-mechanicupgrades:changeNeons" }
     })
 
-    exports['qw-menu']:openMenu(menu)
+    exports['qb-menu']:openMenu(menu)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:setNeonColor', function(rgb)
@@ -692,7 +692,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeExtras', function()
 
     table.insert(options, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(options)
+    exports['qb-menu']:openMenu(options)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applyExtra', function(data)
@@ -733,7 +733,7 @@ RegisterNetEvent('d3-mechanicupgrades:changeSmokeColor', function()
 
     table.insert(menu, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(menu)
+    exports['qb-menu']:openMenu(menu)
 end)
 
 RegisterNetEvent('d3-mechanicupgrades:applySmokeColor', function(color)
@@ -793,7 +793,7 @@ RegisterNetEvent("d3-mechanicupgrades:changeXenons", function()
 
     table.insert(menu, { header = "⬅ Back", params = { event = "d3-mechanicupgrades:openMenu" } })
 
-    exports['qw-menu']:openMenu(menu)
+    exports['qb-menu']:openMenu(menu)
 end)
 
 
@@ -882,7 +882,7 @@ RegisterNetEvent("d3-mechanicupgrades:openBulletproofMenu", function()
         }
     }
 
-    exports['qw-menu']:openMenu(menu)
+    exports['qb-menu']:openMenu(menu)
 end)
 
 
